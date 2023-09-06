@@ -1,4 +1,4 @@
+import pandas as pd
 
-
-if __name__ == "__main__":
-  print("hello world")
+df = pd.read_csv("https://github.com/datacamp/courses-introduction-to-python/blob/master/datasets/baseball.csv")
+df.describe()

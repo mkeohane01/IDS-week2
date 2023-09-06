@@ -1,3 +1,5 @@
 black
 pytest
 pylint
+pandas
+numpy
